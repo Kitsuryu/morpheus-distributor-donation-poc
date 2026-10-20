@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+optimizer = false
+fs_permissions = [{ access = "read", path = "./" }]
+
+[rpc_endpoints]
+mainnet = "https://ethereum-rpc.publicnode.com"
